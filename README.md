@@ -14,13 +14,13 @@ Frame Extraction: Convert videos to individual frames for processing.
 Watermark Detection and Removal: Automatically detect and remove watermarks from frames using:
 
 
-### OpenCV Inpainting
+#### 1. OpenCV Inpainting
 
 
-### GAN-based models (WDNet)
+#### 2. GAN-based models (WDNet)
 
 
-### ProPianter
+#### 3. ProPianter
 
 
 Reassemble Video: Reconstruct the video from the cleaned frames.
@@ -47,7 +47,7 @@ OpenCV
 TensorFlow or PyTorch (for GAN-based models)
 ProPianter
 
-##Usage
+## Usage
 
 
 ### Step 1: Download a Video
