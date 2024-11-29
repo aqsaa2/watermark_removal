@@ -34,9 +34,9 @@ Configurable Pipeline: Choose between different watermark removal techniques.
 
 To use this repository, clone it to your local machine and install the required dependencies.
 
-
+```python
 git clone https://github.com/aqsaa2/watermark-removal.git
-
+```
 
 cd watermark-removal
 
@@ -54,17 +54,17 @@ ProPianter
 
 You can download a video using a link or specify a local file path. The following command downloads a video:
 
-
+```python
 python download_video.py --url "video_url"
-
+```
 
 ### Step 2: Extract Frames
 
 After downloading the video, extract individual frames using the following command:
 
-
+```python
 python extract_frames.py --video_path "path_to_video"
-
+```
 
 ### Step 3: Remove Watermark
 
@@ -72,28 +72,29 @@ You can choose from multiple methods to remove watermarks from the extracted fra
 
 Option 1: OpenCV Inpainting
 
-
+```python
 python remove_watermark.py --method opencv --frames_dir "path_to_frames"
-
+```
 
 Option 2: WDNet (GAN-based model)
 
 
 Ensure that you have the necessary pre-trained model files for WDNet before using this option.
 
-
+```python
 python remove_watermark.py --method wdnet --frames_dir "path_to_frames"
-
+```
 
 Option 3: ProPianter(best results)
 
-
+```python
 python remove_watermark.py --method propianter --frames_dir "path_to_frames"
-
+```
 
 ### Step 4: Reassemble the Video
 
 Once the frames have been cleaned, reassemble them into a video:
 
-
+```python
 python reassemble_video.py --frames_dir "path_to_cleaned_frames" --output_video "outpu
+```
