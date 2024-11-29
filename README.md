@@ -20,7 +20,7 @@ Watermark Detection and Removal: Automatically detect and remove watermarks from
 #### 2. GAN-based models (WDNet)
 
 
-#### 3. ProPianter
+#### 3. ProPianter(best results)
 
 
 Reassemble Video: Reconstruct the video from the cleaned frames.
