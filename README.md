@@ -36,9 +36,9 @@ To use this repository, clone it to your local machine and install the required 
 
 ```python
 git clone https://github.com/aqsaa2/watermark-removal.git
-```
 
 cd watermark-removal
+```
 
 
 ## Requirements
@@ -96,5 +96,5 @@ python remove_watermark.py --method propianter --frames_dir "path_to_frames"
 Once the frames have been cleaned, reassemble them into a video:
 
 ```python
-python reassemble_video.py --frames_dir "path_to_cleaned_frames" --output_video "outpu
+python reassemble_video.py --frames_dir "path_to_cleaned_frames" --output_video "output_video_path"
 ```
